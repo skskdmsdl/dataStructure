@@ -1,0 +1,13 @@
+💡 ArrayList
+ArrayList 클래스는 가변 길이의 배열 자료구조를 다룰 수 있는 기능을 제공한다
+
+💡 List와 ArrayList의 차이점
+ - 선언의 차이점
+   List<Integer> list = new ArrayList<Integer>();
+   ArrayList<Integer> arrayList = new ArrayList<Integer>();
+
+ - List는 인터페이스이고, ArrayList는 클래스이다
+   List로 선언된 변수는 필요에 따라 다른 리스트 클래스를 쓸 수 있는 구현상의 유연성을 제공한다
+   (예시)
+    List<Integer> list1 = new ArrayList<Integer>();
+    List<Integer> list2 = new LinkedList<Integer>();
