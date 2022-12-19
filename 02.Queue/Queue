@@ -1,0 +1,15 @@
+💡 큐(Queue)란?
+자료구조에서 스택과 함께 가장 많이 볼 수 있는 선형구조이다
+스택이 한쪽이 막혀있는 프링글스를 생각한다면, 큐는 놀이동산에서 기다리는 줄을 생각하시면 이해하기가 수월하다
+큐는 FIFO(First In First Out) 혹은 LILO(Last In Last Out) 혹은 선입선출이라고 한다
+즉, 가장 먼저 넣은 데이터를 가장 먼저 꺼낼 수 있느 구조이다
+
+💡 알아둘 용어
+Enqueue : 큐 맨 뒤에 데이터 추가
+Dequeue : 큐 맨 앞쪽의 데이터 삭제
+
+💡 JAVA 에서의 큐 자료 구조 사용
+JAVA에서는 기본적으로 java.util 패키지에 Queue 클래스를 제공하고 있다
+ - Enqueue에 해당하는 기능으로 add(value) 또는 offer(value) 메서드를 제공한다
+ - Dequeue에 해당하는 기능으로 poll() 또는 remove() 메서드를 제공한다
+ - Queue 클래스에 데이터 생성을 위해서는 java.util 패키지의 LinkedList 클래스를 사용해야 한다
